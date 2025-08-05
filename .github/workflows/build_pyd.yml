@@ -1,4 +1,4 @@
-name: Build dis_func.pyd with Cython
+name: Build test.pyd with Cython
 
 on:
   workflow_dispatch:
