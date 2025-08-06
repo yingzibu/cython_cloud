@@ -1,4 +1,4 @@
-name: Build test.pyd with Cython
+name: Build *.pyd with Cython
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install --upgrade pip setuptools wheel cython
 
-      - name: Build test.pyd
+      - name: Build *.pyd
         run: |
           python setup.py build_ext --inplace
 
