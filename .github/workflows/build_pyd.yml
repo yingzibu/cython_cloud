@@ -31,4 +31,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: compiled_pyd
-          path: test*.pyd
+          path: test_func*.pyd
